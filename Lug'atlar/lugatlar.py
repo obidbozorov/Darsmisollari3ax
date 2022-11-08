@@ -80,12 +80,26 @@ loginData = {
     {"mobil":+998902222,"ish":71254644},
 "manzil": "Dekanat ko`chasi 105"
 } }
-print(loginData["Rustam"]["tel"]["ish"])'''
+print(loginData["Rustam"]["tel"]["ish"])
 en_uzb={"book":"kitob","pen":"ruchka","Apple":"Olma",
         "cat":"mushuk","dog":"it"}
 eng_uzbtartiblangani=sorted(en_uzb)
 for i in eng_uzbtartiblangani:
     print(i, en_uzb[i])
+alisher=["AA1234567","Buriboyev D."]
+ganisher=["AA8951323","Sobirov G'."]
+talabalar={alisher:["AX",3,"Amaliy matematika va IT"],ganisher:["Kimyo",2,"Kimyo"]}
+print(talabalar.values())'''
+talabalar={}
+print("Talabalarni qo'shish:")
+while True:
+    jshir=int(input("JSHIR="))
+    talabalar[jshir]={"FISH":input("FISH="),"Kurs":input("Kursi="),
+                      "Yunalishi":input("Yo'nalishini kiriting: "),"GPA":float(input("GPA="))}
+
+
+
+talabalar[3266222665]["GPA"]
 
 
 
